@@ -10,7 +10,7 @@ export default function App() {
       <h1>Weather App</h1>
       <Form setCity={setCity} />
       <Weather city={city} />
-      <p> This app was coded by Paulina Pogwizd and hosted</p>
+      <p> This project was coded by <a href="https://github.com/Paupog">Paulina Pogwizd</a> and is open-sourced on <a href="https://github.com/Paupog/weather-app-react" >GitHub</a> and hosted on <a href="https://weathapp.netlify.app/">Netlify</a></p>
     </div>
   );
 }
